@@ -1,7 +1,14 @@
 {
-  "name": "dev-server",
+  "name": "@gustavnikolaj/dev-server",
   "version": "0.0.0",
   "description": "",
+  "bin": {
+    "dev-server": "./bin/dev-server"
+  },
+  "files": [
+    "bin",
+    "lib"
+  ],
   "main": "lib/dev-server.js",
   "scripts": {
     "coverage": "nyc mocha",
@@ -35,5 +42,8 @@
       "lcov",
       "text"
     ]
+  },
+  "dependencies": {
+    "@gustavnikolaj/async-main-wrap": "^3.0.1"
   }
 }

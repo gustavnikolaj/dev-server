@@ -89,6 +89,11 @@
     lodash "^4.17.13"
     to-fast-properties "^2.0.0"
 
+"@gustavnikolaj/async-main-wrap@^3.0.1":
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/@gustavnikolaj/async-main-wrap/-/async-main-wrap-3.0.1.tgz#b838eb9dfaf9ed81bfc2b47f64d17a83bbcfc71b"
+  integrity sha512-FHh1Tz5Jk5xJphcYpFUMsxCTO+XbgQyCorlbztqBsYRnu5hmuoV/0Q+dJlcOtQCG6cJ5/EHX+VrSsoLBoaTJvQ==
+
 acorn-jsx@^5.0.2:
   version "5.0.2"
   resolved "https://registry.yarnpkg.com/acorn-jsx/-/acorn-jsx-5.0.2.tgz#84b68ea44b373c4f8686023a551f61a21b7c4a4f"

@@ -1,0 +1,6 @@
+#!/usr/bin/env node
+
+require("@gustavnikolaj/async-main-wrap")(require("../lib/cli"))(
+  process.cwd(),
+  process.argv.slice(2)
+);
