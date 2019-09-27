@@ -1,0 +1,39 @@
+{
+  "name": "dev-server",
+  "version": "0.0.0",
+  "description": "",
+  "main": "lib/dev-server.js",
+  "scripts": {
+    "coverage": "nyc mocha",
+    "lint": "eslint . && prettier --check '**/*.js'",
+    "test": "mocha"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^6.4.0",
+    "eslint-config-prettier": "^6.3.0",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-mocha": "^6.1.1",
+    "eslint-plugin-node": "^10.0.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "mocha": "^6.2.0",
+    "nyc": "^14.1.1",
+    "prettier": "^1.18.2",
+    "unexpected": "^11.8.0"
+  },
+  "mocha": {
+    "recursive": true
+  },
+  "nyc": {
+    "cache": true,
+    "reporter": [
+      "html",
+      "lcov",
+      "text"
+    ]
+  }
+}
