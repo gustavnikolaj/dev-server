@@ -15,7 +15,6 @@
     "lint": "eslint . && prettier --check '**/*.js'",
     "postpublish": "git push origin --all && git push origin --tags",
     "postversion": "npm publish --access=public",
-    "prepublish": "npm run build",
     "preversion": "npm test",
     "test": "mocha"
   },
