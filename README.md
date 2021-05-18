@@ -8,6 +8,12 @@ Serves files from the directory. Will inject a websocket client into HTML pages,
 and trigger a reload when any file that has previously been loaded through the
 webserver is changed.
 
+# Installation
+
+```
+npm install -D @gustavnikolaj/dev-server
+```
+
 # Thanks
 
 This is mostly a repackaging of previous work done by other people. Listed in
